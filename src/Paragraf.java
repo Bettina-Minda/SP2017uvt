@@ -1,5 +1,5 @@
 
-public class Paragraf implements ElemPagina{
+public class Paragraf extends ElemPag{
 	public String text;
 	public Paragraf(){
 		 this.text = "none";
@@ -15,20 +15,5 @@ public class Paragraf implements ElemPagina{
 			System.out.println(text);
 		}
 
-		public void addElement(ElemPagina e) {
-			// TODO Auto-generated method stub
 			
-		}
-
-		public void removeElement(ElemPagina e) {
-			// TODO Auto-generated method stub
-			
-		}
-
-		public int getElemente() {
-			// TODO Auto-generated method stub
-			return 0;
-		}
-
-		
 }
