@@ -1,18 +1,22 @@
 
 public class Paragraf extends ElemPag{
 	public String text;
+	public AlignStrategy align;
+	
 	public Paragraf(){
 		 this.text = "none";
 	}
 
-	public Paragraf(String txt){
+	public Paragraf(String txt,AlignStrategy alg){
 		this.text = txt;
+		this.align = alg;
+		
 	}
 
 
 		public void print() {
 			
-			System.out.println(text);
+			align.aligntext(this.text);
 		}
 
 			
