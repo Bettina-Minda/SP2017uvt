@@ -17,5 +17,10 @@ public class ImagineProxy extends ElemPag {
 		
 		img.print();
 	}
+
+	public void accept(Visitor v) {
+		v.visitImagineProxy(this);
+		
+	}
 	
 }

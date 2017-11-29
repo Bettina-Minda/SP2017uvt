@@ -5,4 +5,5 @@ public interface ElemPagina {
 	public int getElemente();
 	public void print();
 	
+	public void accept(Visitor v);
 }

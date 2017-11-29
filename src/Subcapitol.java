@@ -27,4 +27,9 @@ public class Subcapitol implements ElemPagina {
 			e.print();
 		}
 	}
+
+	public void accept(Visitor v) {
+		// TODO Auto-generated method stub
+		
+	}
 }

@@ -14,5 +14,10 @@ public class Imagine extends ElemPag {
 			System.out.println(imagePath);
 		}
 
+		public void accept(Visitor v) {
+			v.visitImagine(this);
+			
+		}
+
 	
 }

@@ -19,5 +19,10 @@ public class Paragraf extends ElemPag{
 			align.aligntext(this.text);
 		}
 
+		public void accept(Visitor v) {
+			v.visitParagraf(this);
+			
+		}
+
 			
 }

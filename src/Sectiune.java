@@ -1,4 +1,4 @@
-import java.util.ArrayList;
+ import java.util.ArrayList;
 
 public class Sectiune implements ElemPagina {
 	
@@ -12,7 +12,8 @@ public class Sectiune implements ElemPagina {
 	}
 
 	public void addElement(ElemPagina e){
-		elem.add(e);		
+		elem.add(e);	
+		
 	}
 	public void removeElement(ElemPagina e) {		
 		elem.remove(e);
@@ -30,5 +31,10 @@ public class Sectiune implements ElemPagina {
 	
 
 	
+	}
+
+	public void accept(Visitor v) {
+		// TODO Auto-generated method stub
+		
 	}
 }

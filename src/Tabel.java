@@ -15,6 +15,11 @@ public class Tabel extends ElemPag{
 			System.out.println(numeTabel);
 		}
 
+		public void accept(Visitor v) {
+			v.visitTabel(this);
+			
+		}
+
 		
 
 }
