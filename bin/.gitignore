@@ -1,6 +1,2 @@
-/Command.class
-/NewCommand.class
-/OpenCommand.class
-/SaveCommand.class
-/DocumentManager.class
-/StatisticCommand.class
+/command/
+/main/
