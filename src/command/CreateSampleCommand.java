@@ -18,8 +18,8 @@ public class CreateSampleCommand implements Command{
 	public void execute() {
 		// TODO Auto-generated method stub
 		if(DocumentManager.getInstance().getbook()!=null){
-			Memento state = new Memento(DocumentManager.getInstance().getbook());
-			DocumentManager.getInstance().getStates().add(state);
+		//	Memento state = new Memento(DocumentManager.getInstance().getbook());
+			//DocumentManager.getInstance().getStates().add(state);
 	}
 	Sectiune s = new Sectiune(this.title);
 	Sectiune s1 = new Sectiune("sectiunea1");
